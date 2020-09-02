@@ -1,7 +1,15 @@
-/// @description 
+/// @description calculating railing lengths
+
+//function find_remainder will look though each scrap value and see if one is higher then it, 
+//if so it returns the number 0-8 (that corrosponds to the array index)
+
 
 
 // sort highest scrap at the highest array
+// if sortmethod = 0 sort off scrap high to low
+//else sort = 1 sort off TR length high to low
+
+
 if specs.sortmethod = 0
 {
 bubblesort(tr);
@@ -11,7 +19,7 @@ if specs.sortmethod = 1
 bubblesort1(tr);
 }
 
-
+//looping to sort each top rail length
 var i;
 for (i = 8; i >= 0; i = i - 1)
 {
@@ -19,12 +27,13 @@ for (i = 8; i >= 0; i = i - 1)
 		
 			if tr[i] != 0
 			{
+				// greater then 20
 						if tr[i] >= 20
 						{
 							if tr[i] >20 and tr[i] < 30
 							{
 							 var k = (ceil((tr[i]/10))*10)/20;
-							 var xx = 10;
+							 var xx = 10;		
 							 var yy = .5;
 							}
 							else
@@ -60,7 +69,7 @@ for (i = 8; i >= 0; i = i - 1)
 						}
 						
 			
-			
+			// between 10- 20 ft
 					if tr[i] >= 10 and tr[i] <= 19
 					{
 						if !is_undefined(check)
@@ -88,7 +97,7 @@ for (i = 8; i >= 0; i = i - 1)
 		
 							}
 					}
-
+// less then 10 ft
 if tr[i] < 10
 				{
 		

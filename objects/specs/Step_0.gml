@@ -1,4 +1,4 @@
-/// @description 
+/// @description ability to set the variables to your own values
 
 if mouse_check_button_pressed(mb_left) and place_meeting(x,y,omouse)
 {

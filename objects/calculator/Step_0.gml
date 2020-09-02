@@ -1,4 +1,4 @@
-/// @description 
+/// @description getting numberpad input
 
 var i;
 for (i = 8; i >= 0; i = i - 1)

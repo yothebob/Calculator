@@ -1,4 +1,6 @@
-/// @description 
+/// @description initalizing variables/ arrays 
+// more variables are in the specs object
+
 tr[0] = 0;
 tr[1] = 0;
 tr[2] = 0;

@@ -1,4 +1,4 @@
-/// @description 
+/// @description drawing the variable values and descriptions
 draw_self();
 draw_text(x-150,y,"Remainder: " + string(remainder));
 draw_text(x- 150,y-32,"% rounding: " + string(fudge));

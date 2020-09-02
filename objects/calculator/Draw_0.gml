@@ -1,4 +1,4 @@
-/// @description 
+/// @description drawing everything
 
 draw_set_font(Font1);
 var i ;

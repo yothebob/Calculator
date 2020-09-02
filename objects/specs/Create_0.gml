@@ -1,4 +1,4 @@
-/// @description 
+/// @description variables for TR calcs.
 remainder = 1;
 fudge = 1;
 multi = 1;
