@@ -36,12 +36,3 @@ input[6] = vk_numpad6;
 input[7] = vk_numpad7;
 input[8] = vk_numpad8;
 
-opt[0] = 0;
-opt[1] = 0;
-opt[2] = 0;
-opt[3] = 0;
-opt[4] = 0;
-opt[5] = 0;
-opt[6] = 0;
-opt[7] = 0;
-opt[8] = 0;
