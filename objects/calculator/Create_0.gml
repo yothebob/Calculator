@@ -1,6 +1,7 @@
 /// @description initalizing variables/ arrays 
 // more variables are in the specs object
 
+// top railing array
 tr[0] = 0;
 tr[1] = 0;
 tr[2] = 0;
@@ -11,6 +12,7 @@ tr[6] = 0;
 tr[7] = 0;
 tr[8] = 0;
 
+// top railing remainder array
 trr[0] = 0;
 trr[1] = 0;
 trr[2] = 0;
